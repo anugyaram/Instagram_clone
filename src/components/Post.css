@@ -1,0 +1,12 @@
+.post{
+    flex: 30%;
+    margin: 5px;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    height: 150px;
+}
+.post-img{
+    width: auto;
+    height: 100%;
+    padding: 2px;
+}
