@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header';
 import { useEffect,useState } from 'react';
 import axios from 'axios';
+import UserInfo from '../../components/UserInfo';
 
 const Home = () => {
 
@@ -15,8 +16,8 @@ const Home = () => {
     },[])
   return (
     <div>
-        <Header image={user.image} />
-        
+        <Header />
+        <UserInfo />
     </div>
   )
 }

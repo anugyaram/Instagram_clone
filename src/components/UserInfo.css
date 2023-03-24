@@ -1,0 +1,29 @@
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0px 100px;
+}
+.user-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.image-area{
+    margin: 0px 60px;
+}
+.follow-info{
+    display: flex;
+    flex-direction: row;
+}
+.follow-info p{
+    padding: 5px 20px 5px 0px;
+    margin: 0px;
+}
+.info-area h4{
+    margin: 10px 0px 2px;
+}
+.info-area p{
+    margin: 0px;
+}
